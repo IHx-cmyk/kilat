@@ -288,7 +288,7 @@ export default function App() {
                 <pre>
                   <code>
                     <span className="sh-prompt">$</span>jolt --version{"\n"}
-                    <span className="sh-out">Jolt v0.1.0</span>
+                    <span className="sh-out">Jolt v0.2.0</span>
                   </code>
                 </pre>
               </div>
@@ -715,24 +715,24 @@ export default function App() {
                 </div>
               </div>
 
-              <div className="timeline-item active">
+              <div className="timeline-item done">
                 <div className="timeline-dot"></div>
                 <div className="timeline-card">
                   <div className="timeline-meta">
                     <span className="timeline-ver">v0.2.0</span>
-                    <span className="timeline-status active">Pengerjaan</span>
+                    <span className="timeline-status done">Selesai</span>
                   </div>
                   <h4 className="timeline-title">Watch Mode & Environment</h4>
                   <p className="timeline-desc">Menyediakan file watcher auto reload (<code>--watch</code>) dan pemuatan parsing file environment variable <code>.env</code> secara otomatis pada startup.</p>
                 </div>
               </div>
 
-              <div className="timeline-item">
+              <div className="timeline-item active">
                 <div className="timeline-dot"></div>
                 <div className="timeline-card">
                   <div className="timeline-meta">
                     <span className="timeline-ver">v0.3.0</span>
-                    <span className="timeline-status planned">Rencana</span>
+                    <span className="timeline-status active">Pengerjaan</span>
                   </div>
                   <h4 className="timeline-title">REPL Interaktif</h4>
                   <p className="timeline-desc">Menambahkan antarmuka interaktif Jolt console langsung di dalam shell Termux untuk pengujian ekspresi JavaScript secara langsung.</p>
@@ -755,11 +755,47 @@ export default function App() {
                 <div className="timeline-dot"></div>
                 <div className="timeline-card">
                   <div className="timeline-meta">
-                    <span className="timeline-ver">v1.0.0</span>
+                    <span className="timeline-ver">v0.5.0</span>
                     <span className="timeline-status planned">Rencana</span>
                   </div>
                   <h4 className="timeline-title">Dukungan TypeScript Instan</h4>
                   <p className="timeline-desc">Kompilasi dan eksekusi TypeScript langsung secara runtime menggunakan integrasi parser loader esbuild.</p>
+                </div>
+              </div>
+
+              <div className="timeline-item">
+                <div className="timeline-dot"></div>
+                <div className="timeline-card">
+                  <div className="timeline-meta">
+                    <span className="timeline-ver">v1.0.0</span>
+                    <span className="timeline-status planned">Rencana</span>
+                  </div>
+                  <h4 className="timeline-title">Rilis Stabil Utama</h4>
+                  <p className="timeline-desc">Rilis versi stabil utama (production ready) dengan performa andal untuk eksekusi skrip harian.</p>
+                </div>
+              </div>
+
+              <div className="timeline-item">
+                <div className="timeline-dot"></div>
+                <div className="timeline-card">
+                  <div className="timeline-meta">
+                    <span className="timeline-ver">v1.5.0</span>
+                    <span className="timeline-status planned">Rencana</span>
+                  </div>
+                  <h4 className="timeline-title">Dukungan ES Modules</h4>
+                  <p className="timeline-desc">Dukungan parser modern untuk sintaks ES Modules (<code>import</code> / <code>export</code>).</p>
+                </div>
+              </div>
+
+              <div className="timeline-item">
+                <div className="timeline-dot"></div>
+                <div className="timeline-card">
+                  <div className="timeline-meta">
+                    <span className="timeline-ver">v2.0.0</span>
+                    <span className="timeline-status planned">Rencana</span>
+                  </div>
+                  <h4 className="timeline-title">Optimalisasi Performa Ekstrem</h4>
+                  <p className="timeline-desc">Refactoring total arsitektur runtime Jolt untuk performa eksekusi dan efisiensi memori yang ekstrem.</p>
                 </div>
               </div>
             </div>
@@ -833,7 +869,7 @@ export default function App() {
       <nav className="navbar">
         <div className="nav-container">
           <a href="#index" className="logo">
-            <span className="logo-spark">⚡</span> jolt <span className="logo-badge">v0.1.0</span>
+            <span className="logo-spark">⚡</span> jolt <span className="logo-badge">v0.2.0</span>
           </a>
 
           {/* Desktop nav links */}

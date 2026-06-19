@@ -1,8 +1,8 @@
 # Compiled binaries
-jolt
-jolt-linux-arm64
-jolt-linux-amd64
-jolt-linux-armv7
+/jolt
+/jolt-linux-arm64
+/jolt-linux-amd64
+/jolt-linux-armv7
 
 # Local package manager cache
 .jolt/
