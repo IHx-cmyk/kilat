@@ -3,6 +3,8 @@
 # 🚀 JOLT
 ### **Fast & Ultra-Lightweight JavaScript Runtime for Termux**
 
+<img src="docs/jolt.jpg" alt="Jolt Banner" width="400" style="border-radius: 8px; margin: 15px 0; max-width: 100%;"/>
+
 Jolt adalah runtime JavaScript CommonJS yang ringan dan efisien, dibangun di atas **Go** menggunakan compiler engine **Goja**. Runtime ini dirancang khusus untuk perangkat mobile melalui **Termux (Android)** guna memberikan performa tinggi dengan konsumsi daya dan penyimpanan yang minimal.
 
 *Bekerja mirip Node.js/Bun, tetapi dirancang tanpa beban folder raksasa `node_modules`.*
